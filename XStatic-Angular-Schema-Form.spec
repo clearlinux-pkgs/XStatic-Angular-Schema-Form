@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Angular-Schema-Form
 Version  : 0.8.13.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/57/71/ceea2c0a72e2ee2d316d6ab1c06b21faa9f5cbc4b36a4127d7847b7079c5/XStatic-Angular-Schema-Form-0.8.13.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/71/ceea2c0a72e2ee2d316d6ab1c06b21faa9f5cbc4b36a4127d7847b7079c5/XStatic-Angular-Schema-Form-0.8.13.0.tar.gz
 Summary  : Angular-Schema-Form 0.8.13 (XStatic packaging standard)
