@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Angular-Schema-Form
 Version  : 0.8.13.0
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/57/71/ceea2c0a72e2ee2d316d6ab1c06b21faa9f5cbc4b36a4127d7847b7079c5/XStatic-Angular-Schema-Form-0.8.13.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/71/ceea2c0a72e2ee2d316d6ab1c06b21faa9f5cbc4b36a4127d7847b7079c5/XStatic-Angular-Schema-Form-0.8.13.0.tar.gz
 Summary  : Angular-Schema-Form 0.8.13 (XStatic packaging standard)
@@ -15,18 +15,17 @@ Requires: XStatic-Angular-Schema-Form-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-XStatic-Angular
 ---------------
-
-Angular JavaScript library packaged for setuptools (easy_install) / pip.
-
-This package is intended to be used by **any** project that needs these files.
-
-It intentionally does **not** provide any extra code except some metadata
-**nor** has any extra requirements. You MAY use some minimal support code from
-the XStatic base package, if you like.
-
-You can find more info about the xstatic packaging way in the package `XStatic`.
+        
+        Angular JavaScript library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package `XStatic`.
 
 %package python
 Summary: python components for the XStatic-Angular-Schema-Form package.
@@ -42,7 +41,7 @@ python components for the XStatic-Angular-Schema-Form package.
 Summary: python3 components for the XStatic-Angular-Schema-Form package.
 Group: Default
 Requires: python3-core
-Provides: pypi(XStatic-Angular-Schema-Form)
+Provides: pypi(xstatic_angular_schema_form)
 
 %description python3
 python3 components for the XStatic-Angular-Schema-Form package.
@@ -57,8 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582852324
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583525472
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
